@@ -10,7 +10,7 @@ export default function Home() {
           <div className="w-[600px]">
             <h1 className="lg:text-4xl text-3xl mb-2">One For All Coffee</h1>
             <h3 className="lg:text-2xl text-xl mb-4">where literary charm meets exceptional brews.</h3>
-            <p className="mb-4">Join us for a memorable coffee experience with attentive service and a cozy atmosphere. Come taste the best of Hamilton's coffee scene!</p>
+            <p className="mb-4">Join us for a memorable coffee experience with attentive service and a cozy atmosphere. Come taste the best of Hamilton\apos;s coffee scene!</p>
             <Link href="/" prefetch={false} className="self-start border-2 border-[var(--dark)] px-4 py-2 btn-retro">
               Explor Our Menu
             </Link>
