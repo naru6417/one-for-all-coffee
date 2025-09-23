@@ -22,7 +22,7 @@ export default function Home() {
             <h3 className="lg:text-2xl text-xl mb-4">where literary charm meets exceptional brews.</h3>
             <p className="mb-4">Join us for a memorable coffee experience with attentive service and a cozy atmosphere. Come taste the best of Hamilton&apos;s coffee scene!</p>
             <Link href="/" prefetch={false} className="self-start border-2 border-[var(--dark)] px-4 py-2 btn-retro">
-              Explor Our Menu
+              Explore Our Menu
             </Link>
           </div>
         </div>
@@ -50,8 +50,8 @@ export default function Home() {
           </div>
           <div className="text-center max-w-5xl mx-auto text-lg mb-6">
             One For All Coffee is more than just a stop for a caffeine fix; it is an elevated coffee experience where inviting 
-            ambiance, delectable beverages, and dedicated service converge. So, whether you're a local or just passing through 
-            Hamilton, be sure to pay a visit to this little gem. You won't just leave with a cup of coffee—but likely with a 
+            ambiance, delectable beverages, and dedicated service converge. So, whether you&apos;re a local or just passing through 
+            Hamilton, be sure to pay a visit to this little gem. You won&apos;t just leave with a cup of coffee—but likely with a 
             smile and a new literary appreciation.
           </div>
           <div>
