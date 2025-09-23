@@ -7,8 +7,8 @@ export default function Header(){
                 ONE FOR ALL COFFEE
             </Link>
             <div className="grid grid-cols-4 gap-8">
-                <Link href="/" prefetch={false}>Home</Link>
-                <Link href="/" prefetch={false}>Our Menu</Link>
+                <Link href="/home" prefetch={false}>Home</Link>
+                <Link href="/menu" prefetch={false}>Our Menu</Link>
                 <Link href="/" prefetch={false}>About</Link>
                 <Link href="/" prefetch={false}>Contact</Link>
             </div>
