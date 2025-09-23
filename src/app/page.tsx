@@ -1,4 +1,4 @@
-import Slider from "../components/slider";
+import Slider from "@/components/slider";
 import Image from "next/image";
 import Link from "next/link";
 
