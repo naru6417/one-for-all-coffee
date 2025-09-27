@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --light: #ffffff;
   --dark: #212121;
 }
 
@@ -35,6 +35,43 @@ body {
   box-shadow: none; /* shadow disappears */
 }
 
-html {
-  scroll-behavior: smooth;
+/* Shape Divider */
+.custom-shape-divider-top-1758642487 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1758642487 svg {
+    position: relative;
+    display: block;
+    width: calc(144% + 1.3px);
+    height: 96px;
+}
+
+.custom-shape-divider-top-1758642487 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-top-1758651343 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1758651343 svg {
+    position: relative;
+    display: block;
+    width: calc(144% + 1.3px);
+    height: 96px;
+}
+
+.custom-shape-divider-top-1758651343 .shape-fill {
+    fill: #212121;
 }
