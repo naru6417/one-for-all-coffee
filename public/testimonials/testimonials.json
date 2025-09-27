@@ -1,0 +1,38 @@
+{
+    "Testimonial1": {
+        "name": "John Doe",
+        "feedback": "Great coffee and friendly staff!",
+        "rating": 5,
+        "image": "/testimonials/john doe.jpg"
+    },
+    "Testimonial2": {
+        "name": "Jane Smith",
+        "feedback": "A cozy place to relax and enjoy a cup of coffee.",
+        "rating": 5,
+        "image": "/testimonials/Jane Smith.jpg"
+    },
+    "Testimonial3": {
+        "name": "Alice Johnson",
+        "feedback": "The best espresso I've ever had!",
+        "rating": 5,
+        "image": "/testimonials/Alice Johnson.jpg"
+    },
+    "Testimonial4": {
+        "name": "Bob Brown",
+        "feedback": "Amazing atmosphere and delicious pastries.",
+        "rating": 5,
+        "image": "/testimonials/Bob Brown.jpg"
+    },
+    "Testimonial5": {
+        "name": "Estrella Hanbyul Kim",
+        "feedback": "AM ESTRELLA!!!! WAHAHAHAHAHA.",
+        "rating": 5,
+        "image": "/testimonials/mimi.jpg"
+    },
+    "Testimonial6": {
+        "name": "NARU",
+        "feedback": ":D.",
+        "rating": 5,
+        "image": "/testimonials/naru.jpg"
+    }
+}

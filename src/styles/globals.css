@@ -76,11 +76,43 @@ body {
     fill: #212121;
 }
 
+/* Custom divider Animation */
+
+.custom-shape-divider-top-1758642487 path:nth-child(1) {
+  animation: wave1 2s ease-in-out infinite alternate;
+}
+.custom-shape-divider-top-1758642487 path:nth-child(2) {
+  animation: wave2 3s ease-in-out infinite alternate;
+}
+.custom-shape-divider-top-1758642487 path:nth-child(3) {
+  animation: wave3 4s ease-in-out infinite alternate;
+}
+
+@keyframes wave1 {
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(-10px); }
+}
+@keyframes wave2 {
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(-30px); }
+}
+@keyframes wave3 {
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(-20px); }
+}
+
 /* Sound wave animation */
 
 .indicator-line {
-  @apply h-1 w-px rounded-full bg-black transition-all duration-200 ease-in-out;
+  height: 0.25rem;        
+  width: 1px;             
+  border-radius: 9999px;  
+  background-color: #000; 
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .indicator-line.active {
   animation: indicator-line 0.5s ease infinite;
@@ -102,7 +134,6 @@ body {
   }
 }
 
-/* From Uiverse.io by G4b413l */
 /* https://uiverse.io/G4b413l/tidy-walrus-92 */
 .three-body {
   --uib-size: 35px;

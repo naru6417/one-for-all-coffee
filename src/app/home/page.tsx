@@ -12,16 +12,17 @@ const images = [
   ];
 
 export default function Home() {
+
   return (
     <div className="flex flex-col">
       {/* Main part */}
-      <section className="grid lg:grid-cols-2 grid-cols-1 gap-20 max-w-7xl mx-auto mb-28">
+      <section id="home" className="grid lg:grid-cols-2 grid-cols-1 gap-20 max-w-7xl mx-auto mb-28">
         <div className="flex flex-col justify-center items-end">
           <div className="w-[600px]">
             <h1 className="lg:text-4xl text-3xl mb-2">One For All Coffee</h1>
             <h3 className="lg:text-2xl text-xl mb-4">where literary charm meets exceptional brews.</h3>
             <p className="mb-4">Join us for a memorable coffee experience with attentive service and a cozy atmosphere. Come taste the best of Hamilton&apos;s coffee scene!</p>
-            <Link href="/" prefetch={false} className="self-start border-2 border-[var(--dark)] px-4 py-2 btn-retro">
+            <Link href="#menu" prefetch={false} className="self-start border-2 border-[var(--dark)] px-4 py-2 btn-retro">
               Explore Our Menu
             </Link>
           </div>
@@ -78,6 +79,49 @@ export default function Home() {
               <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" className="shape-fill"></path>
               <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" className="shape-fill"></path>
           </svg>
+        </div>
+      </section>
+
+      {/* Menu */}
+      <section id="menu" className="relative bg-[var(--dark)] text-white">
+        <div className="max-w-7xl mx-auto py-[90px] flex flex-col gap-8">
+          <div className="text-center pt-10">
+            <h3 className="text-3xl">MENU</h3>
+            <p>COFFEE, TEA & MORE</p>
+          </div>
+          <div className="text-center max-w-5xl mx-auto text-lg mb-6">
+            1MENU COMING SOON...
+          </div>
+
+        </div>
+      </section>
+
+      {/* Location & Schedule*/}
+      <section id="LocationAndSchedule" className="relative bg-[var(--dark)] text-white">
+        <div className="max-w-7xl mx-auto py-[90px] flex flex-col gap-8">
+          <div className="text-center pt-10">
+            <h3 className="text-3xl">LOCATION & SCHEDULE</h3>
+            <p>YOU CAN FIND US AT</p>
+          </div>
+          <div className="text-center max-w-5xl mx-auto text-lg mb-6">
+            2LOCATION COMING SOON...
+          </div>
+
+        </div>
+      </section>
+
+      {/* Gallery & Socials*/}
+      {/* Follow this tutorial for the gallery https://youtu.be/R_PKABXn4vk?si=mWJL08EO5BqvTw1J */}
+      <section id="Gallery" className="relative bg-[var(--dark)] text-white">
+        <div className="max-w-7xl mx-auto py-[90px] flex flex-col gap-8">
+          <div className="text-center pt-10">
+            <h3 className="text-3xl">GALLERY</h3>
+            <p>OUR GALLERY</p>
+          </div>
+          <div className="text-center max-w-5xl mx-auto text-lg mb-6">
+            @GALLERY COMING SOON...
+          </div>
+
         </div>
       </section>
     </div>
