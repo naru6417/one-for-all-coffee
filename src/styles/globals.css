@@ -201,3 +201,12 @@ body {
   left: 0;
   animation: wobble2 var(--uib-speed) infinite ease-in-out;
 }
+
+/* Review css */
+.comment-preview {
+  display: -webkit-box;
+  -webkit-line-clamp: 8; /* 👈 limits to 5 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -2,15 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Slider from "@/components/slider";
 
-const images = [
-    "https://picsum.photos/id/1015/800/400",
-    "https://picsum.photos/id/1016/800/400",
-    "https://picsum.photos/id/1018/800/400",
-    "https://picsum.photos/id/1017/800/400",
-    "https://picsum.photos/id/1011/800/400",
-    "https://picsum.photos/id/1012/800/400",
-  ];
-
 export default function Home() {
 
   return (
@@ -18,7 +9,7 @@ export default function Home() {
       {/* Main part */}
       <section id="home" className="grid lg:grid-cols-2 grid-cols-1 gap-20 max-w-7xl mx-auto mb-28">
         <div className="flex flex-col justify-center items-end">
-          <div className="w-[600px]">
+          <div className="lg:w-[600px]">
             <h1 className="lg:text-4xl text-3xl mb-2">One For All Coffee</h1>
             <h3 className="lg:text-2xl text-xl mb-4">where literary charm meets exceptional brews.</h3>
             <p className="mb-4">Join us for a memorable coffee experience with attentive service and a cozy atmosphere. Come taste the best of Hamilton&apos;s coffee scene!</p>
@@ -28,8 +19,8 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <div className="border-2 border-[var(--dark)] p-2 rounded-tl-[50px] rounded-br-[50px] w-[620px] h-[520px]">
-            <div className="border-2 border-[var(--dark)] p-2 rounded-tl-[50px] rounded-br-[50px] w-[600px] h-[500px]">
+          <div className="border-2 border-[var(--dark)] p-2 rounded-tl-[50px] rounded-br-[50px] lg:w-[620px] lg:h-[520px]">
+            <div className="border-2 border-[var(--dark)] p-2 rounded-tl-[50px] rounded-br-[50px] lg:w-[600px] lg:h-[500px]">
               <Image
                 src="/images/main_img_1.webp"
                 alt="main coffee image"
@@ -56,7 +47,7 @@ export default function Home() {
             smile and a new literary appreciation.
           </div>
           <div>
-            <Slider slides={images} slidesPerView={3}></Slider>
+            <Slider slidesPerView={3}></Slider>
           </div>
         </div>
         
